@@ -1,12 +1,24 @@
 # Aleeya Ahmad — Portfolio
 
-A single-page personal portfolio for **Aleeya Ahmad** — final-year IT student, Apple Foundation alum and AI-focused innovator. Pure HTML / CSS / vanilla JS — no build step, no dependencies.
+> Melbourne-based final-year IT student & AI-focused innovator building human-centred products from award-winning cancer-care apps to grounded AI systems.
 
-🔗 **Live:** _add your GitHub Pages / Vercel URL here once deployed_
+### ✨ Highlights
+- 🏆 **Winner** — RMIT × Northern Health iOS Hackathon
+- 📈 **4.0 GPA** — Vice-Chancellor's List 2025
+- 🍎 **Apple Foundation** Program alumna
+- 📱 **Full-stack iOS developer** — SwiftUI, Swift, Xcode
 
 ---
 
-## What's inside
+## 🔗 View the Portfolio
+
+**Live at:** [`https://aleeyaahmad5.github.io/ADA/`](https://aleeyaahmad5.github.io/ADA/)
+
+Built with pure HTML / CSS / vanilla JS — no build tools, no dependencies.
+
+---
+
+## 📁 What's inside
 
 ```
 index.html      → the whole page (semantic sections, content)
@@ -15,71 +27,54 @@ script.js       → theme toggle, scroll reveals, lightbox, active-nav
 assets/img/     → project screenshots & portrait (optimised JPEGs)
 ```
 
-## Features
+## ✨ Features
 
-- **Light / dark mode** — toggle in the nav, remembers your choice
-- **Responsive** — desktop → mobile down to ~360px
-- **Print to PDF** — `Cmd/Ctrl + P` produces a clean résumé-style PDF
-- **Image lightbox** — click any project screenshot to enlarge
-- **Accessible** — semantic landmarks, focus states, reduced-motion support
-- **Zero dependencies** — fonts load from Google Fonts; everything else is local
+- **🌓 Light / dark mode** — toggle in the nav, persists your choice
+- **📱 Responsive design** — desktop to mobile (360px+)
+- **🖼️ Image lightbox** — click any project screenshot to view full-size
+- **♿ Accessible** — semantic HTML, ARIA labels, keyboard navigation, reduced-motion support
+- **⚡ Zero dependencies** — fonts from Google Fonts, everything else local
 
 ---
 
-## Run locally
+## 🚀 Local Development
 
-It's static — just open `index.html`, or serve the folder:
+This is a static site — just open `index.html`, or serve locally:
 
 ```bash
-python3 -m http.server 8000   # then visit http://localhost:8000
+python3 -m http.server 8000
+# Visit http://localhost:8000
 ```
 
 ---
 
-## Deploy
+## 🌐 Deployment
 
-### GitHub Pages
-1. Push this folder to a repo (see below).
-2. Repo **Settings → Pages → Source: `main` / root**.
-3. Your site goes live at `https://<username>.github.io/<repo>/`.
+### ✅ GitHub Pages (Recommended)
 
-### Vercel / Netlify
-Import the repo — no build command, output directory is the root.
+1. Push this repository to GitHub
+2. Go to **Settings → Pages**
+3. Set **Source** to `Deploy from a branch`
+4. Select **Branch:** `main` and **folder:** `/ (root)`
+5. Your site goes live at `https://<username>.github.io/<repo>/`
 
----
-
-## Push to GitHub (first time)
-
-From inside this folder:
-
-```bash
-git init
-git add .
-git commit -m "Portfolio site"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git push -u origin main
-```
-
-Already have the repo cloned? Just:
-
-```bash
-git add .
-git commit -m "Update portfolio"
-git push
-```
+### Alternative: Vercel / Netlify
+Simply connect your GitHub repo — no build command needed, deploy from root.
 
 ---
 
-## Editing your content
+## 🛠️ Customization
 
-All copy lives directly in `index.html` under clearly-commented sections
-(`HERO`, `ABOUT`, `WORK`, `RECOGNITION`, `SKILLS`, `EXPERIENCE`, `CONTACT`).
+All content lives in `index.html` within clearly-marked sections (`HERO`, `ABOUT`, `WORK`, `SKILLS`, `EXPERIENCE`, `CONTACT`).
 
-- **Swap a screenshot** — drop a new image in `assets/img/` and update the `src`.
-- **Project accent colour** — each `<article class="project" style="--accent:#…">`.
-- **Skill levels** — add/remove `class="on"` dots in the `SKILLS` section.
+**Quick edits:**
+- **Update projects** — edit content in `WORK` section, swap screenshots in `assets/img/`
+- **Change accent colours** — each project has `style="--accent:#…"` 
+- **Modify skills** — add/remove skill items in the `SKILLS` section
+- **Styling** — all design tokens and responsive rules in `styles.css`
 
 ---
+
+## 📝 License
 
 © 2026 Aleeya Ahmad · Melbourne, Australia
